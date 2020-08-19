@@ -40,3 +40,14 @@ border 设定图像边框大小
 
 <a href = "#goto">
 <h1 id = "goto></h1> 锚点链接
+
+<table>   表格
+    <tr>          行
+        <th>第一行</th>  表头
+        <td>1</td>> 元素
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>3</td>
+    </tr>
+</table>
