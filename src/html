@@ -1,0 +1,42 @@
+<!--告诉网页是什么语言-->
+<html lang = "en">
+
+<meta charset="UTF-8">
+
+一级标题到六级标题
+<1></1>
+<6></6>
+
+段落标签
+<p></p>
+
+换行标签
+</br>
+
+加粗文字
+<strong></strong>
+<b><b>
+
+盒子 布局网页
+<div></div> 一行只能放一个
+<span></span> div可以嵌套span
+
+<img scr = "图像url"  alt="图片显示不出来替换文本"/>
+
+图片标签
+title
+height
+width宽度和高度一般修改一个就行 等比例修建
+border 设定图像边框大小
+
+根目录  项目“打开”的第一层
+相对路径 以引用文件所在位置为参考   file    /file  ../file
+绝对路径 以盘符开始或完整的网络地址
+
+<href></href>超链接标签
+<a href="http://www.baidu.com" target="_blank"></a> 打开新的空白窗口
+<a href="#"></a> 空链接
+<a href="file"> 下载链接
+
+<a href = "#goto">
+<h1 id = "goto></h1> 锚点链接
