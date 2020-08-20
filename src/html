@@ -114,4 +114,23 @@ p.one one 指类
 .demo$*5
 
 子类选择器
-：div>p
+div>p
+
+并集选择器
+div,p
+
+伪类选择器
+a:link {color:#FF0000;} /* 未访问的链接 */
+a:visited {color:#00FF00;} /* 已访问的链接 */
+a:hover {color:#FF00FF;} /* 鼠标划过链接 */
+a:active {color:#0000FF;} /* 已选中的链接 */
+按顺序进行
+
+focus选择器 一般对于input类表单元素
+
+
+input：focus{
+}
+
+块元素 一行只能放一个 div
+行内元素 一行可以放多个 span 行内元素只能放文本或行内元素 宽高设置无效 宽度由本身内容决定
