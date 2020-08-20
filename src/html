@@ -41,13 +41,77 @@ border 设定图像边框大小
 <a href = "#goto">
 <h1 id = "goto></h1> 锚点链接
 
-<table>   表格
-    <tr>          行
-        <th>第一行</th>  表头
-        <td>1</td>> 元素
-    </tr>
+<table ">   表格
+    <thead>     表头
     <tr>
-        <td>2</td>
-        <td>3</td>
+        <td>
+        </td>
+    </tr>
+    </thead>
+    <tr>
     </tr>
 </table>
+
+跨行合并 rowspan = "合并单元格的个数“
+
+跨列合并 colspan= "合并单元格的个数“
+
+<ul>无序列表 只能放<li>
+<li>列表元素 可以放任何元素
+
+<dl>
+    <dt></dt>
+    <dd></dd>   自定义列表
+</dl>
+
+
+表单由表单域 表单控件 提示信息组成
+<form action="url地址" method="get" name="form">
+
+</form>
+
+单选框和多选框name值相同
+
+<label></label>聚焦
+
+    <select>
+        <option>选项1</option>
+        <option>选项2</option>
+        <option>选项3</option>
+        <option selected>选项4</option>
+    </select>
+
+    <textarea></textarea> 文本域 适合字多
+
+
+    <style>
+        dt {
+           color: red;
+        }
+        选择器+修改的样式
+
+      .my1 {
+            color: lightslategrey;  类选择器
+          }
+      .my2 {
+              font-size: 10px;  类选择器
+           }
+
+    </style>
+ class =  "my1 my2"
+   #wuyu {
+        color: beige;     id选择器
+    }
+
+
+div tab
+div*10
+ul>li
+div+p
+
+p.one one 指类
+
+.demo$*5
+
+子类选择器
+：div>p
